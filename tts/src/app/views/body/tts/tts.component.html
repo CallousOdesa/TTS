@@ -1,0 +1,24 @@
+<div class="form-group">
+  <label for="exampleFormControlTextarea1">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" #text>
+    Sorry I didn't get in time all the features. This is all I had done for 3 hours in the evening.
+    I think last dropdowns and configurations I could finish for an hour.
+    At this moment you can change the text and listen the audio.</textarea>
+</div>
+<div class="form-group">
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Language / locale
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <button class="dropdown-item" type="button">Action</button>
+      <button class="dropdown-item" type="button">Another action</button>
+      <button class="dropdown-item" type="button">Something else here</button>
+    </div>
+  </div>
+
+<button type="button" class="btn btn-success" (click)="sendRequest()" >Success</button>
+
+<audio #audioOption>
+  <source src='' type="audio/mp3">
+</audio>

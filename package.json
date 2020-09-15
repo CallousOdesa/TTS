@@ -1,0 +1,26 @@
+{
+  "name": "tts",
+  "version": "1.0.1",
+  "description": "Demo of Text To Speech usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CallousOdesa/TTS.git"
+  },
+  "keywords": [
+    "TTS",
+    "google",
+    "angular",
+    "TypeScript",
+    "API"
+  ],
+  "author": "Andrii Melnyk",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/CallousOdesa/TTS/issues"
+  },
+  "homepage": "https://github.com/CallousOdesa/TTS#readme"
+}
